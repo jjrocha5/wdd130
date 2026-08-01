@@ -126,3 +126,57 @@ footer {
 .socialmedia img {
     width: 35px;
 }
+
+.contato-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: start;
+    margin-top: 30px;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.formulario input,
+.formulario textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+}
+
+.formulario textarea {
+    height: 100px;
+}
+
+.formulario input[type="submit"] {
+    background-color: #396E94;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.equipe {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.funcionarios {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.funcionarios figure {
+    text-align: center;
+}
+
+.funcionarios img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
